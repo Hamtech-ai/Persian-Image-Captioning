@@ -35,7 +35,7 @@ image = PIL.Image.open("sample.png")
 
 
 #Load the model you trained for inference 
-model_checkpoint = './Persian-Image-Captioning/checkpoint-28000'
+model_checkpoint = 'MahsaShahidi/Persian-Image-Captioning'
 model = VisionEncoderDecoderModel.from_pretrained(model_checkpoint).to(device)
 
 feature_extractor = ViTFeatureExtractor.from_pretrained('google/vit-base-patch16-224-in21k')
