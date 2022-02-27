@@ -1,6 +1,7 @@
 # Persian-Image-Captioning
 
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/MahsaShahidi/Persian-Image-Captioning)
+
 We fine-tuning the [Vision Encoder Decoder Model](https://huggingface.co/docs/transformers/v4.16.2/en/model_doc/vision-encoder-decoder#transformers.VisionEncoderDecoderModel) for the task of image captioning on the [coco-flickr-farsi](https://www.kaggle.com/navidkanaani/coco-flickr-farsi) dataset. The implementation of our model is in PyTorch with transformers library by Hugging Face(🤗).
 
 You can choose any pretrained vision model and any language model to use in the Vision Encoder Decoder model. Here we use [ViT](https://huggingface.co/google/vit-base-patch16-224-in21k) as the encoder, and [ParsBERT (v2.0)](https://huggingface.co/HooshvareLab/bert-fa-base-uncased-clf-persiannews) as the decoder. The encoder and decoder are loaded separately via `from_pretrained()`function. Cross-attention layers are randomly initialized and added to the decoder.
