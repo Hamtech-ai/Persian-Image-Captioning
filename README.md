@@ -54,7 +54,7 @@ Image | Caption
 --- | --- 
 <img src="images/Family-cooking.jpg" width="220"> | **Generated Caption:** زنی در آشپزخانه در حال اماده کردن غذا است.
 <img src="images/Balloons.jpg" width="220"> | **Generated Caption:** گروهی از مردم در حال پرواز بادبادک در یک زمین چمنزار.
-<img src="images/driving.jpg" width="220">  | **Generated Caption:** مردی در ماشین نشسته و به ماشین نگاه می کند.
+<img src="images/Driving.jpg" width="220">  | **Generated Caption:** مردی در ماشین نشسته و به ماشین نگاه می کند.
 
 
 
